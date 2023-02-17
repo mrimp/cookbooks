@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - portainer.mydomain.de
-    secretName: portainer.mydomain.de
+    - portainer.lan.day-off.net
+    secretName: lan-day-off-net
   rules:
-  - host: portainer.mydomain.de
+  - host: portainer.lan.day-off.net
     http:
       paths:
       - path: /
